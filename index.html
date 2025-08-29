@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>CSS Basics & Box Model</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <header class="page-header">
+    <h1>Welcome to My Stylish Page</h1>
+    <nav class="main-nav">
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+      <h2>Learn CSS with Confidence</h2>
+      <p>This page demonstrates the CSS Box Model, styling, and layout fundamentals.</p>
+      <button class="cta-button">Get Started</button>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="content-section">
+      <div class="card">
+        <h3>About This Project</h3>
+        <p>
+          This project applies essential CSS properties like <strong>margin</strong>, 
+          <strong>padding</strong>, <strong>border</strong>, and <strong>background</strong> 
+          to understand how elements are sized and spaced using the CSS Box Model.
+        </p>
+      </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="content-section">
+      <h3>Our Services</h3>
+      <div class="service-grid">
+        <div class="service-card">
+          <h4>Web Design</h4>
+          <p>Create beautiful, responsive websites from scratch.</p>
+        </div>
+        <div class="service-card">
+          <h4>CSS Styling</h4>
+          <p>Master layout techniques and visual design with pure CSS.</p>
+        </div>
+        <div class="service-card">
+          <h4>HTML Structure</h4>
+          <p>Build semantic and accessible web content.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="content-section">
+      <div class="card contact-box">
+        <h3>Contact Us</h3>
+        <p>Email: yvonnew@gmail.com</p>
+        <p>Phone: (123) 456-7890</p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="page-footer">
+    <p>&copy; 2025 CSS Learning Project. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
